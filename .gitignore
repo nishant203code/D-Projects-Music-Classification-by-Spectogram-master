@@ -1,0 +1,55 @@
+# Image and audio files ----------------------------------------------------------------------------------------------
+*.jpg
+*.jpeg
+*.bmp
+*.tif
+*.tiff
+*.heic
+*.JPG
+*.JPEG
+*.BMP
+*.TIF
+*.TIFF
+*.HEIC
+*.wav
+*.m4a
+*.log
+*.pth
+
+# Folders -------------------------------------------------------------------------------------------------------------
+AudioToSpectogram/output/*
+!AudioToSpectogram/output/README.md
+AudioToSpectogram/output_mel/*
+!AudioToSpectogram/output_mel/README.md
+AudioToSpectogram/fma_small/*
+!AudioToSpectogram/fma_small/README.md
+checkpoints/*
+!checkpoints/README.md
+
+ 
+# Embeddings DB: ignore generated / large files; keep README to preserve directory
+embeddings_db/*
+!embeddings_db/README.md
+ 
+# GitHub Python GitIgnore ----------------------------------------------------------------------------------------------
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# dotenv
+.env
+
+# virtualenv
+.venv*
+venv*/
+ENV*/
+mlproj/
+
+
+
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+.vscode
