@@ -9,7 +9,7 @@ A deep learning project that uses self-supervised contrastive learning on audio 
 
 ---
 
-## 📚 Documentation
+## Documentation
 
 Detailed documentation and guides have been moved to the `docs/` directory:
 
@@ -19,7 +19,7 @@ Detailed documentation and guides have been moved to the `docs/` directory:
 
 ---
 
-## 🎯 Overview
+## Overview
 
 This project implements a **self-supervised learning** approach to learn meaningful audio representations without requiring labeled data. By training a CNN encoder with contrastive learning on augmented spectrograms, the model learns to identify similar songs and can be used for:
 
@@ -31,7 +31,7 @@ The system leverages the power of **contrastive learning** to create robust audi
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Music Classification by spectogram/
@@ -63,7 +63,7 @@ Music Classification by spectogram/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Installation
 
@@ -112,7 +112,7 @@ jupyter notebook notebooks/Music_Classification_Training_Colab.ipynb
 
 ---
 
-## 🏗️ Pipeline Architecture
+## Pipeline Architecture
 
 ![Architecture Diagram](images/pipeline-archi-img.png)
 
@@ -127,7 +127,7 @@ jupyter notebook notebooks/Music_Classification_Training_Colab.ipynb
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 ### Self-Supervised Learning
 - **No labels required**: Learn from raw audio data
@@ -167,7 +167,7 @@ The system implements a comprehensive augmentation pipeline to ensure robust fea
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -179,13 +179,11 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-## 📄 License
+## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
----
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Audio conversion code adapted from [AudioToSpectogram](https://github.com/hdnh2006/AudioToSpectogram)
 - SimCLR paper: [A Simple Framework for Contrastive Learning of Visual Representations](https://arxiv.org/abs/2002.05709)
@@ -193,10 +191,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📧 Contact
+## Contact
 
 For questions or feedback, please open an issue on GitHub.
 
 ---
-
-**Happy Music Coding! 🎵🎶**
